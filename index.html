@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Macs Lai | Frontend Web Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav" id="main-nav">
+        <span class="logo">Macs Lai</span>
+        <button id="hamburger" class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1 class="l-heading">Hi, I'm Macs Lai</h1>
+        <div class="my-2">
+          <p class="lead">
+            A fresh graduate with the interest in Frontend developer
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-3">
+      <div class="container">
+        <h2 class="text-center my-1">About Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead text-center">
+          At here you will find more information about me
+        </p>
+        <div class="about-content">
+          <div class="about-left">
+            <h3 class="s-heading my-3">My Info</h3>
+            <div class="about-info">
+              <p class="lead">
+                I'm a <strong>Fresh Graduate</strong> with the interest in
+                <strong>Frontend Web Developer</strong>. I always curious how's
+                the website are built and how elegant they are design.
+              </p>
+              <p class="lead">
+                Recently I help my client to build a portfolio website using
+                BootStrap and a little bit of JavaScript
+              </p>
+              <p class="lead">
+                Currently seeking for job opportunities where I can learn, grow
+                and contribute.
+              </p>
+            </div>
+          </div>
+          <div class="about-right">
+            <h3 class="my-3 s-heading">My Skills</h3>
+            <div class="skills">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">SASS</div>
+              <div class="skill">Responsive Design</div>
+              <div class="skill">BootStrap</div>
+              <div class="skill">SDLC</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="text-center py-3">
+      <div class="container">
+        <h2 class="my-1">Projects</h2>
+        <div class="bottom-line"></div>
+        <div class="project-grid">
+          <div class="project-content my-3">
+            <img src="./img/project1.jpg" alt="#" class="project-img" />
+          </div>
+          <div class="project-info my-3">
+            <h2 class="">DKTECH</h2>
+            <p class="lead">
+              DKTECH is a portfolio that I created where people can look up for
+              pc services.
+            </p>
+            <a href="https://about.dktech.ml/" target="_blank" class="btn"
+              >View Live</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="text-center py-2">
+      <div class="container">
+        <h2 class="my-1">Contact</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Feel free to contact me by clicking the icon below</p>
+        <div class="socials">
+          <div class="social mx-1">
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="social mx-1">
+            <a
+              href="https://www.linkedin.com/in/macs-lai-b6639023a/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <a id="toTop"><i class="fa-solid fa-arrow-up"></i></a>
+    </section>
+
+    <footer id="main-footer">
+      <div class="container footer-content">
+        <p>
+          Copyright &copy; 2022- Made by
+          <a
+            href="https://www.linkedin.com/in/macs-lai-b6639023a/"
+            target="_blank"
+          >
+            Macs Lai</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
